@@ -1,0 +1,13 @@
+# Mac file system
+.DS_Store
+
+
+# IDE/Netbeans
+**/nbproject
+
+# IDE/PHPStorm
+.idea
+
+# Composer
+vendor/
+composer.lock
