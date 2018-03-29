@@ -9,8 +9,18 @@
       "email": "email@example.com"
     }
   ],
+
+  "Comment": {
+    "line_1": "since this is calling for the psr-4 Standard then when composer dump-autoload is run it will add these code to",
+    "line_2": ".../vendor/composer/autoload_psr4.php",
+
+    "line_3": "This alias (ClassSrcFolder_TopLevelNamespace\\) is all",
+    "line_4": "that's needed to have a class that is named w/ it to be autoloaded."
+  },
+
   "autoload": {
     "psr-4": {
+
       "ClassSrcFolder_TopLevelNamespace\\": "app/ClassSrcFolder/"
     }
   }
