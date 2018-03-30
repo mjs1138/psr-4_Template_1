@@ -1,4 +1,4 @@
-<?php namespace ClassSrcFolder_TopLevelNamespace; //This is the name defined in composer.json
+<?php namespace ClassSrcFolder_TopLevelNamespace; //This is the alias defined in composer.json
 
 class Boogie
 {
