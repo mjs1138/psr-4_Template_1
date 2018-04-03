@@ -24,5 +24,5 @@ $boogieBoogieBoogie = new BoogieBoogieBoogie();
 //$database->bind(':gender', 'male');
 //
 //$database->execute();
-//
+
 //echo $database->lastInsertId();
