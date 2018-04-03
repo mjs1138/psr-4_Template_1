@@ -11,16 +11,16 @@
   ],
 
   "Comment": {
-    "line_1": "since this is calling for the psr-4 Standard then when composer dump-autoload is run it will add these code to",
-    "line_2": ".../vendor/composer/autoload_psr4.php",
+    "line_1": "since this is calling for the psr-4 Standard then when composer dump-autoload is run it will add this: 'ClassSrcFolder_TopLevelNamespace\\' => array($baseDir . '/app/ClassSrcFolder')",
+    "line_2": "to .../vendor/composer/autoload_psr4.php",
+    "line_3": "dump-autoload must be run with the '-o' option",
 
-    "line_3": "This alias (ClassSrcFolder_TopLevelNamespace\\) is all",
-    "line_4": "that's needed to have a class that is named w/ it to be autoloaded."
+    "line_4": "This alias (ClassSrcFolder_TopLevelNamespace\\) is used in a 'namespace' statement in each class that",
+    "line_5": "we want autoloaded."
   },
 
   "autoload": {
     "psr-4": {
-
       "ClassSrcFolder_TopLevelNamespace\\": "app/ClassSrcFolder/"
     }
   }

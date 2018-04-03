@@ -1,6 +1,6 @@
 <?php namespace ClassSrcFolder_TopLevelNamespace; //This is the alias defined in composer.json
 
-class BoogieBoogie
+class BoogieBoogieBoogie
 {
     public function __construct()
     {
@@ -12,7 +12,7 @@ class BoogieBoogie
         echo('I am in class: <i>' . $className . '</i><br>');
         echo('Which is in the Namespace: <i>' . $nameSpace . '</i><br>');
         echo('I live in the directory: <i>' .  $dirName  . '</i><br>');
-        echo('My job is to say: <strong>Boogie, Boogie</strong><br>');
+        echo('My job is to say: <strong>Boogie, Boogie, Boogie</strong><br>');
         echo('<br><br>');
 
         // echo("Sub-Folder in Toplevel Namespace <strong>Boogie, Boogie</strong></br>");
