@@ -14,7 +14,5 @@ class BoogieBoogieBoogie
         echo('I live in the directory: <i>' .  $dirName  . '</i><br>');
         echo('My job is to say: <strong>Boogie, Boogie, Boogie</strong><br>');
         echo('<br><br>');
-
-        // echo("Sub-Folder in Toplevel Namespace <strong>Boogie, Boogie</strong></br>");
     }
 }

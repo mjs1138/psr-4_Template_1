@@ -1,0 +1,25 @@
+<p>The key to Composer-Autoload is the Key <strong>"autoload"</strong> and its associated Value in the projects composer.json file. Example:</p>
+
+<pre><code>
+  <strong>"autoload":</strong> {
+    "psr-4": {
+      "ClassSrcFolder_TopLevelNamespace\\": "app/ClassSrcFolder/"
+    }
+  }
+</code></pre>
+
+<p>Composer uses this value to setup/control the autoloading of classes. The value of the "autoload" key is itself a key/value pair.
+    The key <strong>psr-4</strong>" tells Composer what type of autoloading will be used. The value of this key is, again, itself a key/value pair.
+    What this key/value says: "Start recursively searching for classes identified w/ the namespace <strong>ClassSrcFolder_TopLevelNamespace</strong> in the directory
+    structure <strong>app/ClassSrcFolder/</strong>.
+</p>
+<p>
+    The executable code in this project demonstrates this.
+    <ul>
+    <li>
+        The three classes are all at different levels of the directory structure.
+    </li>
+    <li>But all are in the same name space!</li>
+    <li>In index.php all that is needed to have them available is to include a <strong>use</strong> statement constructed of the namespace and the classname.</li>
+</ul>
+</p>
